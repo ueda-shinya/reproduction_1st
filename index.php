@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
+    <!-- アイキャッチ設定ここから -->
+    <meta property="og:title" content="松井ふゆこのポートフォリオ" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ueda-shinya.github.io/reproduction_1st/index.html" />
+    <meta property="og:image" content="https://ueda-shinya.github.io/reproduction_1st/img/eyecatching_compressed.jpg" />
+    <meta property="og:site_name" content="カリキュラム  模写初級" />
+    <meta property="og:description" content="カリキュラム  模写初級" />
+    <!-- アイキャッチ設定ここまで --> 
     <link rel="stylesheet" type="text/css" href="./css/destyle.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <title>Document</title>
