@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+body{
+    min-width: 1080px;
+}
+.techgreen{
+    color:#28abae;
+}
+h2{
+    font-size: 34px;
+}
+/************************************************
+    heder   */
+
+header{
+    width:100%;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 80px;
+    padding: 48px 0px 24px 24px;
+    border-bottom: 10px solid;
+    border-image-slice:49%;
+    border-image-source: radial-gradient(#eee,#FFF);
+    border-image-width:0 0 10px;
+}
+/************************************************
+    profile   */
+
+.profile{
+    width: 520px;
+    margin: auto;
+    text-align: center;
+}
+.profile__title{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.profile__img{
+    width:240px;
+}
+.profile__name{
+    margin: 34px;
+}
+.skill{
+    text-align: left;
+    font-size: 22px;
+}
+.memo{
+    margin-top: 20px;;
+    text-align:left;
+    font-size: 22px;
+}
+.sns__area{
+    display: flex;
+    justify-content:center;
+}
+.sns__icon{
+    margin: 36px 24px;
+    width: 68px;
+}
+/************************************************
+    wrok   */
+
+.work__area{
+    width:calc(100%-128px);
+    margin: 32px 64px;
+
+    display: flex;
+}
+.work__title{
+    margin-top: 48px;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+.work{
+    width:33%;
+}
+.work img{
+    width:96%;
+    text-align: center;
+}
+.skill__title{
+    margin: 24px 0 24px 0px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.skill__list{
+    font-size: 18px;
+}
+.skill__link{
+    display: flex;
+    justify-content: left;
+}
+.skill__btn{
+    margin: 24px 8px;
+    width:120px;
+    background-color:#ccc;
+    border-color: black;
+    border-style: solid;
+    padding: 8px;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+/************************************************
+    footer   */
+
+footer{
+    margin: 48px 0 16px;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+
+/************************************************
+    heder   */
+
+
+
+
+/************************************************
+    heder   */
+
+
+
+/************************************************
+    heder   */
+
+
+
+/* レスポンシブ対応 */
+
+@media screen and (max-width: 767px) {
+}

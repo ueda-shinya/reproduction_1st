@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <link rel="stylesheet" type="text/css" href="./css/destyle.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <span class="techgreen">P</span>ortfolio
+    </header>
+    <main>
+        <section class="profile">
+            <p class="profile__title"><span class="techgreen">P</span>rofile</p>
+            <div>
+                <img class="profile__img" src="./img/profile.png" alt="myphote">
+                <h2 class="profile__name">テック　太郎</h2>
+                <p class="skill techgreen">HTML / CSS / PHP / MySQL / Laravel / Adobe<br>XD</p>
+                <p class="memo">ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。</p>
+                <div class="sns__area">
+                    <div class="sns__icon">
+                        <a href="#">
+                            <img src="./img/github.png" alt="GitHub">
+                        </a>
+                    </div>
+                    <div class="sns__icon">
+                        <a href="#">
+                            <img src="./img/twitter.png" alt="Twitter">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <p class="work__title"><span class="techgreen">W</span>orks</p>
+            <div class="work__area">
+                <div class="work">
+                    <img src="./img/work_1.png" alt="work1">
+                    <p class="skill__title">Twitterクローン</p>
+                    <p class="skill__list">HTML / CSS / PHP / MySQL</p>
+                    <div class="skill__link">
+                        <div class="skill__btn">
+                            <a href="#">Webサイト</a>
+                        </div>
+                        <div class="skill__btn">
+                            <a href="#">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./img/work_2.png" alt="work1">
+                    <p class="skill__title">カリキュラム管理システム</p>
+                    <p class="skill__list">CodeIgniter / MySQL</p>
+                    <div class="skill__link">
+                        <div class="skill__btn">
+                            <a href="#">Webサイト</a>
+                        </div>
+                        <div class="skill__btn">
+                            <a href="#">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./img/work_3.png" alt="work1">
+                    <p class="skill__title">ラーニングシステム</p>
+                    <p class="skill__list">Laravel / MySQL</p>
+                    <div class="skill__link">
+                        <div class="skill__btn">
+                            <a href="#">Webサイト</a>
+                        </div>
+                        <div class="skill__btn">
+                            <a href="#">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright &copy TECH I.S.,Inc.</p>
+    </footer>
+</body>
+</html>
