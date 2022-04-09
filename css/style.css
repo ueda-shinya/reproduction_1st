@@ -114,25 +114,73 @@ footer{
     font-size: 16px;
 }
 
-
-
 /************************************************
-    heder   */
-
-
-
-
-/************************************************
-    heder   */
-
-
-
-/************************************************
-    heder   */
-
-
-
-/* レスポンシブ対応 */
+    レスポンシブ対応 */
 
 @media screen and (max-width: 767px) {
+    body{
+        min-width: 100%;
+    }
+    header{
+        font-size: 26px;
+    }
+    .profile{
+        width:90%;
+        margin: auto;
+    }
+    .profile__title{
+        font-size: 18px;
+    }
+    .profile__img{
+        width: 160px;
+    }
+    .profile__name{
+        font-size: 18px;
+    }
+    .skill{
+        font-size: 14px;
+    }
+    .memo{
+        font-size: 14px;
+    }
+    .sns__icon{
+        width:46px;
+    }
+    .work__area{
+        width:90%;
+        margin: 36px auto;
+        display: block;
+    }
+    .work__title{
+        margin-top: 24px;
+        width: 100%;
+    }
+    .work{
+        width: 100%;
+        margin-top: 24px;
+    }
+    .skill__title{
+        font-size: 22px;
+    }
+    .skill__list{
+        font-size: 16px;
+    }
+    .skill__btn{
+        width:100px;
+        font-size: 14px;
+    }
+    footer{
+        margin-top: 24px;
+        font-size: 14px;
+    }
+
+
+
+
+
+
+
+
+
+
 }
